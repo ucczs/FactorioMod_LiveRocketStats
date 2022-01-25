@@ -1,0 +1,9 @@
+{
+    "name": "rocket-counter",
+    "version": "0.1.0",
+    "title": "Rocket Counter",
+    "author": "ucczs",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"],
+    "description": "This mod counts the launched rockets and logs the duration between two rocket launches."
+}
