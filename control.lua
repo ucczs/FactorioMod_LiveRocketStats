@@ -29,7 +29,7 @@ function rocket_launched(event)
     game.print("Total number of launched rockets: " .. tostring(totalNumberOfRockets))
 
     local timeStr = getTimeString(global.lastRocketLaunchTick, game.ticks_played)
-    game.print("Time since last build: " .. timeStr)
+    game.print("Time since last rocket launch: " .. timeStr)
 
     global.lastRocketLaunchTick = game.ticks_played
 
